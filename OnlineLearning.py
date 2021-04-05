@@ -69,7 +69,7 @@ for i in range(len(outcomes)):
     plt.plot(x, y1, color='green', label='prior')
     plt.plot(x, y2, color='blue', label='likelihood function')
     plt.plot(x, y3, color='red', label='posterior')
-    plt.legend()  # 显示图例
+    plt.legend()  # 
     plt.xlabel('μ')
     plt.ylabel('likelihood')
     plt.show()
